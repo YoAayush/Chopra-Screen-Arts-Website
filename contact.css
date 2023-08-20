@@ -1,0 +1,534 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #F0E9E5;
+    scroll-behavior: smooth;
+}
+.sec_1{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #F0E9E5;
+    box-shadow: 0px 10px 50px #f7dccc;
+}
+.head{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    width: fit-content;
+    margin: auto;
+}
+.logo img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 200px;
+    overflow: hidden;
+    transition: ease-in-out .5s;
+}
+.logo:hover img{
+    scale: 1.1;
+}
+.sgh{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+.sgh a{
+    margin: 1rem 3rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.sgh a:hover{
+    color: #CEB5A7;
+}
+#hamburger-menu{
+    width: fit-content;
+    margin: auto;
+    display: none;
+}
+#hamburger-menu span img{
+    width: 30px;
+    transition: all .5s ease-in-out;
+}
+#close-menu{
+    width: fit-content;
+    margin: auto;
+    display: none;
+}
+#close-menu span img{
+    width: 35px;
+    transition: all .5s ease-in-out;
+}
+#contact{
+    width: fit-content;
+    margin: auto;
+} 
+#contact .cn{
+    width: 100%;
+    background-color: #CEB5A7;
+    font-size: 23px;
+    padding: 7%;
+    color: white;
+    cursor: pointer;
+}
+#contact .cn .cnt{
+    color: white;
+    text-decoration: none;
+}
+#contact:hover .cn{
+    background-color: #d1c2ba;
+}
+.sec_2{
+    width: fit-content;
+    height: 100%;
+    margin: 10rem auto;
+    color: #CEB5A7;
+}
+.quote{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.quote .line{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 60px;
+}
+.sec_3{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: white;
+}
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.address{
+    width: fit-content;
+    height: fit-content;
+    padding: 4%;
+    margin: 10rem 4rem;
+}
+.location{
+    width: 100%;
+}
+.hd{
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: #CEB5A7;
+}
+.txt{
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    margin: 1rem auto;
+}
+.form{
+    width: 100%;
+    padding: 2%;
+}
+.inside-form{
+    width: fit-content;
+    font-size: 18px;
+    margin: auto;
+}
+input{
+    border-style:groove;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-color: #d1c2ba;
+    padding: 1%;
+}
+.name{
+    width: fit-content;
+    margin: auto;
+}
+.email, .num{
+    width: fit-content;
+    margin: 1rem auto;
+}
+.work{
+    width: 100%;
+    margin: 1rem auto;
+}
+.grid{
+    width: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.name input{
+    width: 39.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.email input{
+    width: 39.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.num input{
+    width: 39.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.grid input[type=checkbox]{
+    accent-color: black;
+}
+.msg{
+    width: fit-content;
+    margin: 1rem auto;
+}
+textarea{
+    max-width: 39.5rem;
+    font-size: 18px;
+    border-color: #CEB5A7;
+    margin-top: 1rem;
+}
+.btn{
+    width: fit-content;
+    margin: auto;
+    background-color: aquamarine;
+}
+.btn button[type=submit]{
+    color: white;
+    border: none;
+    padding: 18%;
+    cursor: pointer;
+    background-color:#CEB5A7;
+    font-size: 25px;
+}
+.btn button:hover{
+    background-color: #ddcfc6;
+}
+
+/*pop-menu*/
+#asdf{
+    width: 100%;
+    padding: 1%;
+    position: fixed;
+    top: 1;
+    display: none;
+    overflow: hidden; 
+    line-height: 40px;  
+    transition: all .5s ease-in-out;
+    height: 10;
+    background-color:#cec5bc;
+    border-radius: 25rem;
+}
+.-lkj{
+    width: 10rem;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1%;
+    border: solid white 1px;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 50px #f7d2ad;
+}
+.-lkj:hover{
+    scale: 1.1;
+}
+#asdf a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.sec_4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main_ft_hd{
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+    color: #d8c0b2;
+    font-weight: 600;
+}
+.loc_con{
+    width: 100%;
+    height: fit-content;
+    margin-top: 3rem;
+    display: flex;
+}
+.location{
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+}
+.hd{
+    width: fit-content;
+    margin: auto;
+    font-size: 26px;
+}
+.txt{
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.txt p{
+    font-size: 18px;
+}
+
+/*media queries*/
+@media screen and (max-width : 1230px){
+    .name input{
+        width: 30rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .email input{
+        width: 30rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .num input{
+        width: 30rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    textarea{
+        max-width: 30rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+        margin-top: 1rem;
+    }
+    .address{
+        width: fit-content;
+        height: fit-content;
+        padding: 3%;
+        margin: 10rem 4rem;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .address{
+        width: fit-content;
+        height: fit-content;
+        padding: 1%;
+        margin: 10rem 2rem;
+    }
+}
+
+@media screen and (max-width : 840px){
+    .name input{
+        width: 24rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 24rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 24rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 24rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        width: auto;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width : 730px){
+    .name input{
+        width: 20rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 20rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 20rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 20rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        font-size: 14px;
+    }
+    .inside-form{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 690px){
+    .address{
+        display: none;
+    }
+    .name input{
+        width: 35rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 35rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 35rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 35rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        font-size: 16.5px;
+    }
+    .inside-form{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width : 640px){
+    .name input{
+        width: 32rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 32rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 32rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 32rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        font-size: 16.5px;
+    }
+    .inside-form{
+        font-size: 18px;
+    }
+    .form{
+        width: 100%;
+        padding: 0%;
+    }
+    .sec_2{
+        margin: 7rem auto;
+    }
+    .quote .line{
+        font-size: 55px;
+    }
+    .btn{
+        width: fit-content;
+        margin: 1rem auto;
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .sgh{
+        display: none;
+    } 
+    #hamburger-menu{
+        display: block;
+    }
+    .txt p{
+        font-size: 15px;
+    }
+    .sec_2{
+        padding: 2%;
+    }
+    #asdf{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .name input{
+        width: 24rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 24rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 24rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 24rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .loc_con{
+        display: block;
+    }
+    .main_ft_hd{
+        width: fit-content;
+        margin: auto;
+        font-size: 30px;
+        color: #d8c0b2;
+        font-weight: 600;
+    }
+    .name input{
+        width: 19rem;
+        height: 3rem;
+    }
+    .email input{
+        width: 19rem;
+        height: 3rem;
+    }
+    .num input{
+        width: 19rem;
+        height: 3rem;
+    }
+    textarea{
+        max-width: 19rem;
+        font-size: 18px;
+        border-color: #CEB5A7;
+    }
+    .grid{
+        font-size: 12px;
+    }
+}

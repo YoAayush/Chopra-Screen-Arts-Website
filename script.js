@@ -32,10 +32,10 @@ form.addEventListener('submit', function(e) {
     // console.log(`you have selected ${res}`);
     Email.send({
         Host: "smtp.elasticemail.com",
-        Username : "aayushking37@gmail.com",
-        Password : "10A95E1086E5C9BCBF6A672ADCF70D82766D",
-        To : 'aayushking37@gmail.com',
-        From : "aayushking37@gmail.com",
+        Username : "chopraaayush2004@gmail.com",
+        Password : "313BDE959A20F6BC60C551C3B27D417EF40C",
+        To : 'chopraaayush2004@gmail.com',
+        From : "chopraaayush2004@gmail.com",
         Subject : "New client enquiry",
         Body: "Name: " + document.getElementById("name").value + 
             "<br>Email: " + document.getElementById("mail").value +

@@ -1,7 +1,3 @@
-document.getElementById("con").onclick = function(){
-    location.href = "contact.html";
-}
-
 function openNav(){
     let x = document.getElementById("asdf");
     let y = document.getElementById("close-menu");
@@ -37,7 +33,7 @@ form.addEventListener('submit', function(e) {
     Email.send({
         Host: "smtp.elasticemail.com",
         Username : "aayushking37@gmail.com",
-        Password : "5080AA3C610ABEAA13EFB334E3857289468B",
+        Password : "10A95E1086E5C9BCBF6A672ADCF70D82766D",
         To : 'aayushking37@gmail.com',
         From : "aayushking37@gmail.com",
         Subject : "New client enquiry",

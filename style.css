@@ -222,6 +222,10 @@ body{
     background-color:#CEB5A7;
     font-size: 20px;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
 .btn button:hover{
     background-color: #ddcfc6;
 }

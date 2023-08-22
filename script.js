@@ -22,6 +22,12 @@ console.log(checkboxes);
 
 const form = document.querySelector('form');
 form.addEventListener('submit', function(e) {
+    let Phone = document.querySelector('#phn').value;
+    if(document.querySelector('#name').value == '' || document.querySelector('#mail').value == '' || isNaN(Phone) || Phone.length != 10){
+        alert("please enter correct details.");
+        return false;
+    }
+    
     e.preventDefault();
     checkboxes.forEach(function(item) {
         if(item.checked === true){

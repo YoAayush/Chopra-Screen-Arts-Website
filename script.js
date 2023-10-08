@@ -28,7 +28,6 @@ form.addEventListener('submit', function(e) {
         return false;
     }
     
-    e.preventDefault();
     checkboxes.forEach(function(item) {
         if(item.checked === true){
             res.push(item.value);

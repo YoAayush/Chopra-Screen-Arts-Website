@@ -27,7 +27,7 @@ form.addEventListener('submit', function(e) {
         alert("please enter correct details.");
         return false;
     }
-    
+    e.preventDefault();
     checkboxes.forEach(function(item) {
         if(item.checked === true){
             res.push(item.value);
